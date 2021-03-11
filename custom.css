@@ -71,6 +71,9 @@
     --ct-sidebar-title-font-family: var(--ct-page-title-font-family);
     
 }
+  	.cm-s-default .cm-builtin {
+    color : #3274B5
+}
 
 html, body {
     line-height: var(--ct-line-height);
@@ -384,7 +387,6 @@ blockquote {
     margin-right: 3px;
     color: var(--ct-checkbox-marker-switch-color);
     font-size: inherit;
-    display: var(--ct-checkbox-marker-switch-display)
 }
 .marker-switch:hover {
     color: var(--ct-checkbox-marker-switch-color);
